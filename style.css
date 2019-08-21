@@ -1,6 +1,6 @@
    body{
       background: #F9CB9C;
-      background-image: linear-gradient(to bottom,  #FF2D25 , #FF2D25 50%, #F9CB9C 50%,  #F9CB9C); 
+      background-image: linear-gradient(to bottom,  #FF2D25 , #FF2D25 60%, #F9CB9C 40%,  #F9CB9C); 
       height: 100%;
 
     }
@@ -76,7 +76,7 @@
           bottom: 77px;
     }
     main   {
-        height: 800px;
+        height: 700px;
         width: 1000px;
         background-color: #f9cb9c;
         border-style: solid;
