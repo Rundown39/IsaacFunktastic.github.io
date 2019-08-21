@@ -1,16 +1,81 @@
-      h2   {
+ 
+      
+      #text-align  {
           font-family: Lobster;
           color: #ff2d25;
           position: relative;
           left: 150px;
           top: 25px;
     }
+          #text-align2  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 25px;
+    }
+        #text-align3  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 30px;
+    }
+         #text-align4  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 40px;
+    }
+          #text-align5  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 45px;
+    }
+          #text-align6  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 55px;
+    }
+          #text-align7  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 60px;
+    }
+           #text-align8  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 70px;
+    }
+          #text-align9  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 75px;
+    }
+          #text-align10  {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 450px;
+          bottom: 77px;
+    }
     .Boxcontainer   {
         height: 550px;
         width: 1000px;
         background-color: #f9cb9c;
         border-style: solid;
-        border-width: 8px;
+        border-width: 0px;
         border-color: #ff2d25;
         margin: 0 auto;
         flex-direction: column;
@@ -23,9 +88,14 @@
         color: black;
         text-align: center;
         font-family: Lobster;
-        background-color: #ff2d25;
     } 
+    .body-color  {
+    background-color: #ff2d25;
+    }
     @media screen and (max-width: 680px) {
      body  {
-        background-color: #000;
- 
+        background-color: #0000FF;
+      }
+    }
+      
+     
