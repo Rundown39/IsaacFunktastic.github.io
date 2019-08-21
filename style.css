@@ -81,8 +81,7 @@
         flex-direction: column;
     }
     .background-color  {
-        background-color: #ff2d25;
-        height: 50%;
+       background-image: linear-gradient(to top,50% #ff2d25,50% #f9cb9c);
     }
       .extra {
         color: black;
