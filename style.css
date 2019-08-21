@@ -1,5 +1,6 @@
    body{
-       background-image: linear-gradient(to top  #FF2D25,  #F9CB9C);
+      background-image: linear-gradient(to bottom,  #F9CB9C 50%, #FF2D25 50%);
+
     }
       
       #text-align  {
