@@ -93,9 +93,6 @@
       footer {
           font-family: Lobster;
           color: #ff2d25;
-          position: relative;
-          left: 150px;  
-          top: 30%;
     }
     @media screen and (max-width: 680px) {
  
