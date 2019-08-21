@@ -94,12 +94,12 @@
           font-family: Lobster;
           color: #ff2d25;
     }
-      footer-adjustment{
+      #footer-adjustment {
         position: relative:
         left: 150px;
         top 20px;
       }
-      footer-adjustment2{
+      #footer-adjustment2 {
         position: relative:
         left: 250px;
         top 20px;
