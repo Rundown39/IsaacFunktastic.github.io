@@ -75,12 +75,12 @@
           left: 450px;
           bottom: 77px;
     }
-    .Boxcontainer   {
-        height: 550px;
+    main   {
+        
         width: 1000px;
         background-color: #f9cb9c;
         border-style: solid;
-        border-width: 0px;
+        border-width: 2px;
         border-color: #ff2d25;
         margin: 0 auto;
         flex-direction: column;
