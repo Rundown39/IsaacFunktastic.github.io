@@ -93,17 +93,10 @@
       footer {
           font-family: Lobster;
           color: #ff2d25;
+          position: relative;
+          bottom: 20px;
     }
-      .footer-adjustment {
-        position: relative;
-        left: 150px;
-        top: 20px;
-      }
-      .footer-adjustment2 {
-        position: relative;
-        left: 700px;
-        bottom: 20px;
-      }
+      
     @media screen and (max-width: 680px) {
  
     }
