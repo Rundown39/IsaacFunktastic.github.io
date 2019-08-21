@@ -102,7 +102,7 @@
       .footer-adjustment2 {
         position: relative;
         left: 700px;
-        top: 20px;
+        bottom: 20px;
       }
     @media screen and (max-width: 680px) {
  
