@@ -83,10 +83,9 @@
         border-width: 2px;
         border-color: #ff2d25;
         margin: 0 auto;
-        flex-direction: column;
     }
 
-      .extra {
+      h1 {
         color: black;
         text-align: center;
         font-family: Lobster;
