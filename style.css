@@ -90,9 +90,13 @@
         text-align: center;
         font-family: Lobster;
     } 
- 
+      footer {
+          font-family: Lobster;
+          color: #ff2d25;
+          position: relative;
+          left: 150px;  
+    }
     @media screen and (max-width: 680px) {
  
     }
-      
-     
+    
