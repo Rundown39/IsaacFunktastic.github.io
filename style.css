@@ -90,21 +90,14 @@
         text-align: center;
         font-family: Lobster;
     } 
-      .footer1 {
+      footer {
           font-family: Lobster;
           color: #ff2d25;
           position: relative;
           left: 150px;
           bottom: 20px;
     }
-       .footer2 {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 500px;
-          bottom: 20px;
-      }
-      
+       
     @media screen and (max-width: 680px) {
  
     }
