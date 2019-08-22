@@ -1,117 +1,53 @@
- 
- body{
+ *{
+        box-sizing: border-box;
+        }
+     body{
       background: #F9CB9C;
       background-image: linear-gradient(to bottom,  #FF2D25 , #FF2D25 60%, #F9CB9C 40%,  #F9CB9C); 
       height: 100%;
 
     }
         img {
+            
         height: 300px;
+        max-height: auto;
         width: 300px;
-        position: absolute;
-        left: 200px;
-        top: 200px;
+        max-width: 100%;
         border-style: solid;
         border-width: 4px;
-        border-radius: 50%;
+        border-radius: 100%;
         border-color: #ff2d25;
         }
       
-      #text-align  {
+      h2, ol, ul, p  {
           font-family: Lobster;
           color: #ff2d25;
-          position: relative;
-          left: 150px;
-          top: 25px;
     }
-          #text-align2  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 25px;
-    }
-        #text-align3  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 30px;
-    }
-         #text-align4  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 40px;
-    }
-          #text-align5  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 45px;
-    }
-          #text-align6  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 55px;
-    }
-          #text-align7  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 60px;
-    }
-           #text-align8  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 70px;
-    }
-          #text-align9  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 75px;
-    }
-          #text-align10  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 450px;
-          bottom: 77px;
-    }
-          #text-align11  {
-          font-family: Lobster;
-          color: #ff2d25;
-          position: relative;
-          left: 150px;
-          bottom: 60px;
-    }
-         #text-align12  {
-          font-family: Lobster;
-          font-size: 18px;
-          color: #ff2d25;
-          position: relative;
-          left: 80px;
-          bottom: 55px;
-    }
+          
+          
+    
+        
     main   {
-        height: 700px;
-        width: 1000px;
+        height: 100%;
+        max-width: 80%;
         background-color: #f9cb9c;
         border-style: solid;
         border-width: 4px;
         border-color: #ff2d25;
         margin:auto auto 100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
     }
-
+        main aside {
+            width: 40%;
+        }
+        main section {
+            width: 60%;
+        }
+        main div{
+            width: 100%;
+        }
       h1 {
         color: black;
         text-align: center;
@@ -120,17 +56,18 @@
       .footer1 {
           font-family: Lobster;
           color: #ff2d25;
-          position: relative;
-          left: 100px;
-          bottom: 20px;
     }
        .footer2 {
           font-family: Lobster;
           color: #ff2d25;
-          position: absolute;
-          left: 450px;
-          bottom: -25px;
+          
     }
     @media screen and (max-width: 680px) {
- 
+        main aside {
+            width: 100%;
+        }
+        main section {
+            width: 100%;
+        }
     }
+ 
