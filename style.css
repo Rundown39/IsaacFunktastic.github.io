@@ -4,7 +4,17 @@
       height: 100%;
 
     }
-      
+       img {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        left: 200px;
+        top: 200px;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 50%;
+        border-color: #ff2d25;
+        }
       #text-align  {
           font-family: Lobster;
           color: #ff2d25;
